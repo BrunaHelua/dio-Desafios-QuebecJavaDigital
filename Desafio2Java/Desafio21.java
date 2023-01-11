@@ -1,10 +1,13 @@
-// Abaixo segue um exemplo de código que você pode ou não utilizar
+// Dado um inteiro x, retorne o número de etapas para reduzi-lo a zero.
+// Em uma etapa, se o número atual for par,
+// você deve dividi-lo por 2, caso contrário, você deve subtrair 1 dele.
 
 import java.util.*;
 
 public class Desafio21 {
     public static void main(String[] args)
     {
+        //System.out.println("Digite um número inteiro: ");
         int num = Integer.parseInt(new Scanner(System.in).nextLine());
         var step = 0;
 
@@ -28,11 +31,6 @@ public class Desafio21 {
                 num -= 1;
             }
         }
-/* 
-	if(step > 0){
-	    System.out.println("numero de passos" + step);
-	}else{
-	    System.out.println("numero de passos" + step);
-	}*/
+        System.out.println(step);
     }
 }

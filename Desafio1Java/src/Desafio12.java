@@ -5,13 +5,16 @@ import java.util.Scanner;
 
 public class Desafio12 {
 
+    // definicao do objeto desagio
     static double desafio12(int codigoPeca, int numeroPecas, Double valorPeca){
         double valPeca = valorPeca;
         int numPecas = numeroPecas;
         double valorTotal = numPecas * valPeca;
         return valorTotal;
     }
-	
+
+    //meu TODO: trabalhar exceptions
+    // usar exceptions para quando usuario digita algo com tipo diferente do pedido
     public static void main(String[] args) throws IOException {
         Scanner leitor = new Scanner(System.in);
         System.out.println("Digite as informações da primeira peça");
