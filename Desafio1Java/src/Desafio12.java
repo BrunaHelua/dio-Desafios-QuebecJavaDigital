@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Desafio12 {
 
-    // definicao do objeto desagio
+    // definicao da funcao calcula valores peças
     static double desafio12(int codigoPeca, int numeroPecas, Double valorPeca){
         double valPeca = valorPeca;
         int numPecas = numeroPecas;
